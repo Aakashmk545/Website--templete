@@ -1,0 +1,542 @@
+/*  Default css  Start*/
+
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --black-1: #0e0d0c;
+    --gray: #e4c590;
+    --white: #fff;
+}
+
+.container{
+    max-width: 1780px;
+    padding: 0px  20px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none !important;
+    display: block;
+    color: var(--white) !important;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.space-y{
+    padding: 50px 0px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*  Default css  End*/
+  
+
+/*  Header css  Start*/
+
+.top_info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 0px;
+    border-bottom: 1px solid var(--gray);
+    /* position: relative; */
+    z-index: 1; 
+}
+
+.top_info ul a{
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.top_info ul{
+    padding: 5px;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 1;
+    /* position: relative; */
+    /* padding: 10px 0px; */
+}
+
+.nav_menu .img{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_menu .main_menu li a
+{
+    padding: 30px 20px;
+    color: var(--white);
+    display: flex;
+    align-items: center;    
+
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+}
+
+/*  Header css  End*/
+
+
+/*  Slider css  Start*/
+.slider{
+    position: relative;
+   
+}
+
+.slider img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.title{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    /* transform: translate(-35%,-50%); */
+    margin: auto;
+    width: 300px;
+}
+
+.title  .hd{
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: white;
+    /* padding: 100px; */
+}
+
+.title .img1{
+    width: 100px;
+    text-align: center;
+    margin: 20px 60px;
+}
+
+
+/*  Slider css  End*/
+
+
+
+/*  View mwnu css  Start*/
+
+
+.title1{
+    
+    width: 250px;
+    margin: auto;
+}
+
+.title1  .hd1{
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: var(--black-1);
+    /* padding: 100px; */
+}
+
+.title1 .img1{
+    width: 100px;
+    text-align: center;
+    margin: 20px 60px;
+}
+
+.heading h2{
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.boxs img{
+    width: 100%;
+    height: 60%;
+    padding: 30px 0px;
+
+    object-fit: cover;
+}
+.boxs .box{
+    width: 33.33%;
+    height: 680px;
+    padding: 0px 75px;
+    /* border: 1px solid black; */
+    
+
+}
+.boxs .box h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 10px;
+
+}
+.boxs .box p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--black-1);
+}
+.boxs .box span{
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+.btn3{
+    margin-top: 20px;
+}
+.btn3 a{
+    border: 2px solid var(--gray);
+    background-color: var(--gray);
+    color: var(--white);
+    padding: 14px 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 180px;
+    margin: auto;
+
+}
+
+/*  View mwnu css  End*/
+
+
+ /* Our story css Start */
+.oview{
+    padding: 100px 0px;
+    background-color: var(--black-1);
+
+}
+
+.our_story{
+    width: 100%;
+    height: 100%;
+    color: var(--white);
+    padding: 10px;
+ }
+ 
+ .our_story .box{
+    width: 50%;
+    height: 100%;
+ }
+ .title2{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .title2 .img2{
+    width: 200px;
+    height: 35px;
+    padding-top: 20px;
+   
+ }
+ .hd2{
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+ }
+ .our_story .main_h2{
+    font-size: 50px;
+    /* text-transform: uppercase; */
+    width: 50%;
+    text-align: center;
+    font-weight: 200;
+    margin: auto;
+    padding-top: 20px;
+ }
+ .our_story p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    text-underline-offset: 50px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+ }
+ .our_story .box1{
+
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 100%;
+    /* margin: auto; */
+ }
+ .our_story .box1 h4{
+    margin-bottom: 20px;
+    text-align: center;
+
+ }
+ .our_story .box1 a{
+    text-align: center;
+    font-size: 25px;
+ }
+ .our_story .box1 div{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    /* background-color: white; */
+    color: var(--gray);
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: 2px solid var(--gray);
+ }
+ .our_story .bg1{
+    width: 20%;
+    height: 300px;
+    position: absolute;
+    top:100%;
+    left: 0%;
+    z-index: 1;
+    color: var(--gray);
+ }
+
+ /* Our story css End */
+
+
+
+
+
+
+
+ /* EXPERIENCED TEAM css Start */
+
+ .team h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+ }
+ .team_box{
+    width: 100%;
+    height: 100%;
+ }
+.t_box{
+    width: 33.33%;
+    /* border: 1px solid black; */
+    padding: 0px 50px;
+    
+}
+.t_box img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.t_box .t_box1 h3{
+    font-size: 35px;
+    font-weight: 500;
+}
+.t_box .t_box1 a{
+    font-size: 14px;
+    color: var(--gray);
+    letter-spacing: 3px;
+}
+.t_box .t_box1 p{
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+
+
+ /* EXPERIENCED TEAM css End */
+
+
+
+ 
+ /* Speacal dish css Start */
+ .spe_box1{
+    width: 50%;
+    color: var(--white);
+    /* margin: auto; */
+ }
+ .spe_box2{
+    width: 50%;
+    color: var(--white);
+    padding: 100px;
+ }
+ .spe_main
+ {
+    background-color: var(--black-1);
+ }
+ 
+ .spe_box1 .img{
+    width: 100%;
+ }
+ .spe_box2 h2{
+    font-size: 14px;
+    /* text-align: center; */
+    letter-spacing: 2px;
+    word-spacing: 4px;
+ }
+ .spe_title  img
+ {
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+
+ }
+.spe_box2 .spe_hd1
+{
+    font-size: 45px;
+    font-weight: 400;
+
+}
+.spe_box2 p{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-top: 30px;
+}
+.spe_box2 h3{
+    font-size: 40px;
+    color: var(--gray);
+    margin-top: 20px;
+    font-weight: 500;
+}
+.spe_box2 .spe_btn1{
+    border: 2px solid var(--gray);
+    background-color: transparent;
+    color: var(--gray);
+    padding: 14px 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 2px;
+    width: 35%;
+    margin-top: 50px;
+
+}
+ /* Speacal dish css End */
+
+
+
+
+ /*  BG css Start */
+ .bg2{
+    width: 100%;
+    height: 700px;
+    background-image: url('./Image/asset\ 59.jpeg');
+    background-position: top;
+ }
+ /* .fixed
+ {
+    position: fixed;
+ } */
+
+ /*  BG dish css End */
+
+ /* Footer css End */
+ .ft_img{
+    background-image: url('./Image/asset\ 63.jpeg');
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+ }
+ .main_footer{
+    width: 100%;
+    padding: 100px 0px;
+    opacity: 1;
+ }
+ .main_footer .f1
+ {
+    width: 25%;
+    padding: 40px 10px ;
+    height: 100%;
+
+ }
+ .main_footer .f2{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+ }
+ .main_footer .f3{
+    width: 25%;
+    padding: 40px 10px ;
+    height: 100%;
+
+
+ }
+ .main_footer .main_menu{
+    margin: auto;
+ }
+ .main_footer .main_menu li a{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+ }
+ .main_footer .f2 .box2{
+    margin-top: 50px;
+    
+
+ }
+ .main_footer .f2 a{
+    padding: 7px;
+ }
+ .main_footer .f2 h3{
+    font-size: 16px;
+    padding-bottom: 20px;
+ }
+ .main_footer .f2 h2{
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: 300;
+ }
+ .main_footer .f2 .input{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+ }
+ .main_footer .f2 .input input{
+    padding: 15px 55px;
+    border: 2px solid var(--gray);
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: #fff;
+ }
+ .main_footer .f2 .input a{
+    border: 2px solid var(--gray);
+    background-color: var(--gray);
+    color: var(--black-1);
+    padding: 14px 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+
+ }
+
+ /* Footer  css End */
+
+
+
+
